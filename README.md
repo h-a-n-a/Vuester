@@ -9,17 +9,12 @@ A quick starter template aimed at accelerating Vue app development.
 ### Stack
 
 - Vue-cli3
-
 - Axios
-
+- Mock
 - Vuex
-
 - VueRouter
-
 - ElementUI
-
 - ESLint + Prettier
-
 - and more coming soon...
 
 ### Outline
@@ -64,6 +59,9 @@ A quick starter template aimed at accelerating Vue app development.
     ├─mixins  			// Global Mixins
     |			 index.js
     |
+    ├─mock  				// HttpRequest Mock
+    |			 index.js    
+		|
     ├─router        
     │      index.js
     │      
@@ -92,9 +90,9 @@ A quick starter template aimed at accelerating Vue app development.
           
 ```
 
-### Doc
 
-Alias
+
+### Alias
 
 | Alias      | Real Path      |
 | ---------- | -------------- |
@@ -104,6 +102,25 @@ Alias
 | views      | src/views      |
 | constants  | src/constants  |
 | utils      | src/utils      |
+
+
+
+### Mock
+
+`src/mock/index.js`
+
+```javascript
+Mock.mock(url, method, {
+	code: '00000',
+  data: {
+    ...
+  }
+})
+```
+
+More Details: https://github.com/nuysoft/Mock/wiki
+
+
 
 ### Usage
 
