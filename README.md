@@ -61,7 +61,7 @@ A quick starter template aimed at accelerating Vue app development.
     |
     ├─mock  				// HttpRequest Mock
     |			 index.js    
-		|
+    |
     ├─router        
     │      index.js
     │      
