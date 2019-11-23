@@ -1,10 +1,10 @@
 import axios from 'utils/axios'
 
 // make requests here
-function getSomething(params) {
-  return axios.get('/something', { params })
+function getVuester() {
+  return axios.get('/vuester')
 }
 
 export default {
-  getSomething
+  getVuester
 }

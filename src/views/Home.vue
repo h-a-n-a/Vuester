@@ -6,11 +6,9 @@
 
 <script>
 import vuester from 'components/Vuester'
+import axios from 'utils/axios'
 export default {
   name: 'home',
-  components: { vuester },
-  created() {
-    console.log(this.$api)
-  }
+  components: { vuester }
 }
 </script>

@@ -7,6 +7,7 @@ import ElementUI from 'element-ui'
 import * as filters from './filters/index'
 import './mixins/index'
 import './styles/index.scss'
+import './mock/index'
 
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])

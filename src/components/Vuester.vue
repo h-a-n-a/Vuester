@@ -4,7 +4,7 @@
       <div class="filter-layer"></div>
     </div>
     <div class="welcome">
-      <span class="msg" @click="sayName">{{ name }}</span>
+      <span class="msg" @click="sayName">Welcome to {{ name }}!</span>
     </div>
   </div>
 </template>
@@ -13,8 +13,17 @@ export default {
   name: 'Vuester',
   data() {
     return {
-      name: 'Welcome to Vuester'
+      name: ''
     }
+  },
+  created() {
+    console.log(this.$api)
+
+    this.$api.getVuester().then(({ data }) => {
+      console.log(data)
+
+      this.name = data.name
+    })
   }
 }
 </script>
