@@ -1,6 +1,8 @@
 ##  Vuester
 
-🏹 Vuester = Vue + faster, a quick starter template to accelerate Vue app development.
+🏹 Vuester = Vue + faster, 
+
+A quick starter template aimed at accelerating Vue app development.
 
 
 
