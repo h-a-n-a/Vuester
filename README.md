@@ -50,16 +50,16 @@ A quick starter template aimed at accelerating Vue app development.
     ├─components    // Global components
     | 		 Vuester.vue
     │
-    ├─constants 		// Constants 
+    ├─constants     // Constants 
     |  		 index.js
     │
     ├─filters       // Global filters
     │      index.js
     |
-    ├─mixins  			// Global Mixins
+    ├─mixins        // Global Mixins
     |			 index.js
     |
-    ├─mock  				// HttpRequest Mock
+    ├─mock  	    // HttpRequest Mock
     |			 index.js    
     |
     ├─router        
@@ -85,7 +85,7 @@ A quick starter template aimed at accelerating Vue app development.
     │      
     ├─tests
     │      
-    └─views     		 // Pages
+    └─views           // Pages
            Home.vue
           
 ```
