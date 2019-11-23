@@ -22,41 +22,14 @@ A quick starter template aimed at accelerating Vue app development.
 
 - and more coming soon...
 
-### Usage
-
-Install dependencies
-```
-npm install
-```
-
-Run in development mode
-```
-npm run serve
-```
-
-Run in production mode
-```
-npm run build
-```
-
-Unit test
-```
-npm run test:unit
-```
-
-lint
-```
-npm run lint
-```
-
-
-
 ### Outline
 
 ```
 │  .env.dev       // Config file for development mode
 │  .env.prod      // Config file for production mode
 │  .gitignore
+|  .eslintrc.js		
+|  .postcss.config.js
 │  babel.config.js
 │  package-lock.json
 │  package.json
@@ -119,3 +92,42 @@ npm run lint
           
 ```
 
+### Doc
+
+Alias
+
+| Alias      | Real Path      |
+| ---------- | -------------- |
+| @          | src            |
+| assets     | src/assets     |
+| components | src/components |
+| views      | src/views      |
+| constants  | src/constants  |
+| utils      | src/utils      |
+
+### Usage
+
+Install dependencies
+```
+npm install
+```
+
+Run in development mode
+```
+npm run serve
+```
+
+Run in production mode
+```
+npm run build
+```
+
+Unit test
+```
+npm run test:unit
+```
+
+lint
+```
+npm run lint
+```
