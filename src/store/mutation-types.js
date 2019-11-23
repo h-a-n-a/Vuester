@@ -1,0 +1,1 @@
+export const DO_MUTATIONS = 'DO_MUTATIONS'
