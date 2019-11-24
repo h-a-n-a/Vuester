@@ -40,27 +40,27 @@ A quick starter template aimed at accelerating Vue app development.
     │  main.js      // Entry
     │  
     ├─api           // APIS
-    │     index.js
-    │  		common.js
+    │      index.js
+    │      common.js
     │          
     ├─assets         
-    │     logo.png
+    │      logo.png
     │  
     │          
     ├─components    // Global components
-    | 		 Vuester.vue
+    |      Vuester.vue
     │
     ├─constants     // Constants 
-    |  		 index.js
+    |      index.js
     │
     ├─filters       // Global filters
     │      index.js
     |
     ├─mixins        // Global Mixins
-    |			 index.js
+    |      index.js
     |
     ├─mock  	    // HttpRequest Mock
-    |			 index.js    
+    |      index.js    
     |
     ├─router        
     │      index.js
